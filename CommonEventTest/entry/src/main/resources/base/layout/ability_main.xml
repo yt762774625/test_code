@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="top"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:CommonEventTest"
+        ohos:height="40vp"
+        ohos:width="match_parent"
+        ohos:background_element="#000000"
+        ohos:layout_alignment="top"
+        ohos:text="CommonEventTest"
+        ohos:text_color="#FFFFFF"
+        ohos:text_size="20vp"
+        />
+
+    <Button
+        ohos:id="$+id:btn1"
+        ohos:height="70vp"
+        ohos:width="320vp"
+        ohos:background_element="#888888"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="发布普通公共事件"
+        ohos:text_color="#000000"
+        ohos:text_size="20vp"
+        ohos:text_alignment="center"
+        ohos:top_margin="5vp"/>
+
+    <Button
+        ohos:id="$+id:btn2"
+        ohos:height="70vp"
+        ohos:background_element="#888888"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="发布有序公共事件"
+        ohos:text_color="#000000"
+        ohos:text_alignment="center"
+        ohos:width="320vp"
+        ohos:text_size="20vp"
+        ohos:top_margin="10vp"/>
+
+    <Button
+        ohos:id="$+id:btn3"
+        ohos:height="70vp"
+        ohos:background_element="#888888"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="发布粘性公共事件"
+        ohos:text_color="#000000"
+        ohos:text_alignment="center"
+        ohos:width="320vp"
+        ohos:text_size="20vp"
+        ohos:top_margin="10vp"/>
+
+    <Button
+        ohos:id="$+id:btn4"
+        ohos:height="70vp"
+        ohos:background_element="#888888"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="订阅自定义公共事件"
+        ohos:text_color="#000000"
+        ohos:text_alignment="center"
+        ohos:width="320vp"
+        ohos:text_size="20vp"
+        ohos:top_margin="10vp"/>
+
+    <Button
+        ohos:id="$+id:btn5"
+        ohos:height="70vp"
+        ohos:background_element="#888888"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="取消订阅自定义公共事件"
+        ohos:text_color="#000000"
+        ohos:text_alignment="center"
+        ohos:width="320vp"
+        ohos:text_size="20vp"
+        ohos:top_margin="10vp"/>
+
+</DirectionalLayout>
