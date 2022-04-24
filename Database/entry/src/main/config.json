@@ -1,0 +1,56 @@
+{
+  "app": {
+    "bundleName": "com.example.database",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.example.database",
+    "name": ".MyApplication",
+    "mainAbility": "com.example.database.MainAbility",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "visible": true,
+        "name": "com.example.database.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.database.RdbAbility",
+        "icon": "$media:icon",
+        "description": "$string:rdbabilityslice_description",
+        "label": "$string:entry_RdbAbilitySlice",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}

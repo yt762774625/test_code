@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="top"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:height="40vp"
+        ohos:width="match_parent"
+        ohos:background_element="#000000"
+        ohos:layout_alignment="top"
+        ohos:text="ServiceAbility"
+        ohos:text_color="#FFFFFF"
+        ohos:text_size="20vp"
+        />
+
+    <Button
+        ohos:id="$+id:btn1"
+        ohos:height="70vp"
+        ohos:width="320vp"
+        ohos:background_element="#888888"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="启动服务"
+        ohos:text_color="#000000"
+        ohos:text_size="20vp"
+        ohos:text_alignment="center"
+        ohos:top_margin="5vp"/>
+
+    <Button
+        ohos:id="$+id:btn2"
+        ohos:height="70vp"
+        ohos:background_element="#888888"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="停止服务"
+        ohos:text_color="#000000"
+        ohos:text_alignment="center"
+        ohos:width="320vp"
+        ohos:text_size="20vp"
+        ohos:top_margin="10vp"/>
+
+    <Button
+        ohos:id="$+id:btn3"
+        ohos:height="70vp"
+        ohos:background_element="#888888"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="连接服务"
+        ohos:text_color="#000000"
+        ohos:text_alignment="center"
+        ohos:width="320vp"
+        ohos:text_size="20vp"
+        ohos:top_margin="10vp"/>
+
+    <Button
+        ohos:id="$+id:btn4"
+        ohos:height="70vp"
+        ohos:background_element="#888888"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="断开连接服务"
+        ohos:text_color="#000000"
+        ohos:text_alignment="center"
+        ohos:width="320vp"
+        ohos:text_size="20vp"
+        ohos:top_margin="10vp"/>
+
+    <Button
+        ohos:id="$+id:btn5"
+        ohos:height="70vp"
+        ohos:background_element="#888888"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="启动前台Service"
+        ohos:text_color="#000000"
+        ohos:text_alignment="center"
+        ohos:width="320vp"
+        ohos:text_size="20vp"
+        ohos:top_margin="10vp"/>
+
+    <Button
+        ohos:id="$+id:btn6"
+        ohos:height="70vp"
+        ohos:background_element="#888888"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="打开index页面"
+        ohos:text_color="#000000"
+        ohos:text_alignment="center"
+        ohos:width="320vp"
+        ohos:text_size="20vp"
+        ohos:top_margin="10vp"/>
+
+</DirectionalLayout>
